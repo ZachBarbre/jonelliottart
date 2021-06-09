@@ -1,6 +1,22 @@
 <script>
 	import { page } from '$app/stores';
+	import { onMount } from 'svelte';
+	import { slide } from 'svelte/transition';
+	import { quintOut } from 'svelte/easing';
 	console.log($page.path)
+	let menuOpen = true;
+	// let menuOpen = window.clientWidth < 720 ? false : true;
+	// console.log(window.clientWidth)
+	onMount(() => {
+		if (window.innerWidth < 720) {
+			menuOpen = false;
+		}
+	})
+	const handleOpen = () => {
+		menuOpen = !menuOpen
+    console.log("🚀 ~ file: index.svelte ~ line 8 ~ handleOpen ~ menuOpen", menuOpen)
+	}
+
 </script>
 
 <header>
@@ -9,14 +25,21 @@
 	</a>
 
 	<nav>
-		<ul>
-			<li ><a class:active={$page.path === '/'} sveltekit:prefetch href="/">Illustration</a></li>
-			<li ><a class:active={$page.path === '/character-concepts'} sveltekit:prefetch href="/character-concepts">Character Concepts</a></li>
-			<li ><a class:active={$page.path === '/graphic-design'} sveltekit:prefetch href="/graphic-design">Graphic Design</a></li>
-			<li ><a class:active={$page.path === '/projects'} sveltekit:prefetch href="/projects">Projects</a></li>
-			<li><a rel="external" target="_blank" href="https://jonelliottart.storenvy.com/">Store</a></li>
-			<li ><a class:active={$page.path === '/projects'} sveltekit:prefetch href="/porjects">About</a></li>
-		</ul>
+		<button on:click="{handleOpen}" class="mobile-menu" aria-label="mobile menu">
+			<svg xmlns="http://www.w3.org/2000/svg" width="28px" height="28px" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+				<path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+			</svg>
+		</button>
+		{#if menuOpen}
+			<ul transition:slide="{{ duration: 300, easing: quintOut }}">
+				<li ><a class:active={$page.path === '/'} sveltekit:prefetch href="/">Illustration</a></li>
+				<li ><a class:active={$page.path === '/character-concepts'} sveltekit:prefetch href="/character-concepts">Character Concepts</a></li>
+				<li ><a class:active={$page.path === '/graphic-design'} sveltekit:prefetch href="/graphic-design">Graphic Design</a></li>
+				<li ><a class:active={$page.path === '/projects'} sveltekit:prefetch href="/projects">Projects</a></li>
+				<li><a rel="external" target="_blank" href="https://jonelliottart.storenvy.com/">Store</a></li>
+				<li ><a class:active={$page.path === '/projects'} sveltekit:prefetch href="/porjects">About</a></li>
+			</ul>
+		{/if}
 	</nav>
 </header>
 
@@ -43,13 +66,19 @@
 		min-width: 600px;
 	}
 
-	@media (max-width: 720px) {
-		nav {
-			width: 100%;
-			min-width: unset;
-		}
+	button {
+		margin: 0.5rem 0 0 0;
+		padding: 0.5rem;
+		width: 90%;
+		background-color: var(--background-color);
+		border: 0;
+		font-size: 2rem;
 	}
 
+	.mobile-menu {
+		display: none;
+	}
+	
 	ul {
 		padding: 0;
 		display: flex;
@@ -64,6 +93,37 @@
 		padding: 0 5px;
 
 	}
+
+	.menuOpen {
+		display: flex;
+	}
+
+	@media (max-width: 720px) {
+		nav {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			min-width: unset;
+			font-size: 16px;
+		}
+
+		.mobile-menu {
+			display: unset;
+		}
+
+		ul {
+			/* display: none; */
+			flex-direction: column;
+			justify-content: flex-start;
+		}
+
+		li {
+			padding: 10px 0;
+		}
+	}
+
 	
 	a {
 		color: var(--secondary-color);
