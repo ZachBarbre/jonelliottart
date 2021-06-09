@@ -3,10 +3,8 @@
 	import { onMount } from 'svelte';
 	import { slide } from 'svelte/transition';
 	import { quintOut } from 'svelte/easing';
-	console.log($page.path)
 	let menuOpen = true;
-	// let menuOpen = window.clientWidth < 720 ? false : true;
-	// console.log(window.clientWidth)
+
 	onMount(() => {
 		if (window.innerWidth < 720) {
 			menuOpen = false;
@@ -14,9 +12,7 @@
 	})
 	const handleOpen = () => {
 		menuOpen = !menuOpen
-    console.log("🚀 ~ file: index.svelte ~ line 8 ~ handleOpen ~ menuOpen", menuOpen)
 	}
-
 </script>
 
 <header>
@@ -61,7 +57,6 @@
 	}
 
 	nav {
-		/* max-width: 1500px; */
 		width: 60%;
 		min-width: 600px;
 	}
@@ -94,10 +89,6 @@
 
 	}
 
-	.menuOpen {
-		display: flex;
-	}
-
 	@media (max-width: 720px) {
 		nav {
 			display: flex;
@@ -114,7 +105,6 @@
 		}
 
 		ul {
-			/* display: none; */
 			flex-direction: column;
 			justify-content: flex-start;
 		}
