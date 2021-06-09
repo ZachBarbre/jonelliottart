@@ -28,6 +28,7 @@
 	export let todos;
 
 	async function patch(res) {
+		console.log(res)
 		const todo = await res.json();
 
 		todos = todos.map((t) => {

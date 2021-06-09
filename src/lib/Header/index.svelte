@@ -1,120 +1,80 @@
 <script>
 	import { page } from '$app/stores';
-	import logo from './svelte-logo.svg';
+	console.log($page.path)
 </script>
 
 <header>
-	<div class="corner">
-		<a href="https://kit.svelte.dev">
-			<img src={logo} alt="SvelteKit" />
-		</a>
-	</div>
+	<a class="header-image" sveltekit:prefetch href="/">
+		<img src="/jonelliottart.png" alt="Jon Elliot Art">
+	</a>
 
 	<nav>
-		<svg viewBox="0 0 2 3" aria-hidden="true">
-			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
-		</svg>
 		<ul>
-			<li class:active={$page.path === '/'}><a sveltekit:prefetch href="/">Home</a></li>
-			<li class:active={$page.path === '/about'}><a sveltekit:prefetch href="/about">About</a></li>
-			<li class:active={$page.path === '/todos'}><a sveltekit:prefetch href="/todos">Todos</a></li>
+			<li ><a class:active={$page.path === '/'} sveltekit:prefetch href="/">Illustration</a></li>
+			<li ><a class:active={$page.path === '/character-concepts'} sveltekit:prefetch href="/character-concepts">Character Concepts</a></li>
+			<li ><a class:active={$page.path === '/graphic-design'} sveltekit:prefetch href="/graphic-design">Graphic Design</a></li>
+			<li ><a class:active={$page.path === '/projects'} sveltekit:prefetch href="/projects">Projects</a></li>
+			<li><a rel="external" target="_blank" href="https://jonelliottart.storenvy.com/">Store</a></li>
+			<li ><a class:active={$page.path === '/projects'} sveltekit:prefetch href="/porjects">About</a></li>
 		</ul>
-		<svg viewBox="0 0 2 3" aria-hidden="true">
-			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
-		</svg>
 	</nav>
-
-	<div class="corner">
-		<!-- TODO put something else here? github link? -->
-	</div>
 </header>
 
 <style>
 	header {
 		display: flex;
-		justify-content: space-between;
-	}
-
-	.corner {
-		width: 3em;
-		height: 3em;
-	}
-
-	.corner a {
-		display: flex;
-		align-items: center;
+		flex-direction: column;
 		justify-content: center;
-		width: 100%;
-		height: 100%;
+		align-items: center;
+		margin-top: 2%;
 	}
 
-	.corner img {
-		width: 2em;
-		height: 2em;
-		object-fit: contain;
+	.header-image {
+		max-width: 300px;
+	}
+
+	.header-image img {
+		width: 100%;
 	}
 
 	nav {
-		display: flex;
-		justify-content: center;
-		--background: rgba(255, 255, 255, 0.7);
+		/* max-width: 1500px; */
+		width: 60%;
+		min-width: 600px;
 	}
 
-	svg {
-		width: 2em;
-		height: 3em;
-		display: block;
-	}
-
-	path {
-		fill: var(--background);
+	@media (max-width: 720px) {
+		nav {
+			width: 100%;
+			min-width: unset;
+		}
 	}
 
 	ul {
-		position: relative;
 		padding: 0;
-		margin: 0;
-		height: 3em;
 		display: flex;
-		justify-content: center;
-		align-items: center;
-		list-style: none;
-		background: var(--background);
-		background-size: contain;
+		justify-content: space-between;
+		
 	}
 
 	li {
-		position: relative;
-		height: 100%;
+		text-align: center;
+		list-style: none;
+		flex: 1 0 auto;
+		padding: 0 5px;
+
+	}
+	
+	a {
+		color: var(--secondary-color);
 	}
 
-	li.active::before {
-		--size: 6px;
-		content: '';
-		width: 0;
-		height: 0;
-		position: absolute;
-		top: 0;
-		left: calc(50% - var(--size));
-		border: var(--size) solid transparent;
-		border-top: var(--size) solid var(--accent-color);
-	}
-
-	nav a {
-		display: flex;
-		height: 100%;
-		align-items: center;
-		padding: 0 1em;
-		color: var(--heading-color);
-		font-weight: 700;
-		font-size: 0.8rem;
-		text-transform: uppercase;
-		letter-spacing: 10%;
-		text-decoration: none;
-		transition: color 0.2s linear;
+	.active {
+		color: var(--primary-color);
 	}
 
 	a:hover {
 		color: var(--accent-color);
+		text-decoration: none;
 	}
 </style>
