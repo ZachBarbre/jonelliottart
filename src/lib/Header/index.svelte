@@ -33,7 +33,7 @@
 				<li ><a class:active={$page.path === '/graphic-design'} sveltekit:prefetch href="/graphic-design">Graphic Design</a></li>
 				<li ><a class:active={$page.path === '/projects'} sveltekit:prefetch href="/projects">Projects</a></li>
 				<li><a rel="external" target="_blank" href="https://jonelliottart.storenvy.com/">Store</a></li>
-				<li ><a class:active={$page.path === '/projects'} sveltekit:prefetch href="/porjects">About</a></li>
+				<li ><a class:active={$page.path === '/about'} sveltekit:prefetch href="/about">About</a></li>
 			</ul>
 		{/if}
 	</nav>
