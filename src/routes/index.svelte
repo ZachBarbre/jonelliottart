@@ -26,6 +26,7 @@
 
 <style>
 	section {
-		margin-top: 3%;
+		margin: 3% auto;
+		max-width: 1300px;
 	}
 </style>
