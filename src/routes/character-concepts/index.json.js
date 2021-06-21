@@ -1,9 +1,9 @@
 import { getGallery } from '$lib/utils/getGallery';
 
 export function get() {
-	const illustrations = getGallery('illustrations');
+	const characterConcepts = getGallery('character-concepts');
 
 	return {
-		body: illustrations
+		body: characterConcepts
 	};
 }

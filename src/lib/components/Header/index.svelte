@@ -37,7 +37,7 @@
 			</svg>
 		</button>
 		{#if menuOpen}
-			<ul transition:slide={{ duration: 300, easing: quintOut }}>
+			<ul transition:slide|local={{ duration: 300, easing: quintOut }}>
 				<li><a class:active={$page.path === '/'} sveltekit:prefetch href="/">Illustration</a></li>
 				<li>
 					<a

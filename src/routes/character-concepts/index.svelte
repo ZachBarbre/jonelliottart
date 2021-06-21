@@ -1,10 +1,10 @@
 <script context="module">
 	export async function load({ fetch }) {
-		const response = await fetch('/index.json');
+		const response = await fetch('/character-concepts.json');
 
 		return {
 			props: {
-				illustrations: await response.json()
+				concepts: await response.json()
 			}
 		};
 	}
@@ -12,8 +12,7 @@
 
 <script>
 	import Gallery from '$lib/components/Gallery/index.svelte';
-	export let illustrations;
-	const galleryType = 'illustrations';
+	export let concepts;
 </script>
 
 <svelte:head>
@@ -21,7 +20,7 @@
 </svelte:head>
 
 <section>
-	<Gallery imageArray={illustrations} />
+	<Gallery imageArray={concepts} />
 </section>
 
 <style>
