@@ -1,15 +1,13 @@
-import fs from 'fs';
-import path from 'path';
+import { getGallery } from '$lib/utils/getGallery';
+import { getImage } from '$lib/utils/getImage';
 
 export function get({ params }) {
 	const { slug } = params;
-	const _dirname = path.resolve();
-	const location = path.join(_dirname, 'src/content/illustrations');
 
-	const illustration = fs.readFileSync(`${location}/${slug}.json`, { encoding: 'utf-8' });
-	const illustrstionJson = JSON.parse(illustration);
+	const illustrations = getGallery('illustrations');
+	const illustration = getImage('illustrations', slug);
 
 	return {
-		body: illustrstionJson
+		body: { illustrations, illustration }
 	};
 }

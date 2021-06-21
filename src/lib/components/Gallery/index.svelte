@@ -5,7 +5,7 @@
 
 <Masonry gridGap="10px" colWidth="minmax(360px, 1fr)">
 	{#each imageArray as image}
-		<a sveltekit:prefetch href="/{image.imageUrl.split('.')[0].split('/')[2]}">
+		<a sveltekit:prefetch href="/{image.file}">
 			<div class="image-wrapper">
 				<img src={image.imageUrl} alt={image.title} />
 			</div>
