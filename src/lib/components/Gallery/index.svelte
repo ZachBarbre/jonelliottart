@@ -2,14 +2,18 @@
 	import Masonry from '$lib/components/Masonry.svelte';
 	export let imageArray;
 	export let path = '';
-	console.log('🚀 ~ file: index.svelte ~ line 5 ~ path', path);
+	let refreshLayout;
 </script>
 
-<Masonry gridGap="10px" colWidth="minmax(360px, 1fr)">
-	{#each imageArray as image}
+<Masonry gridGap="10px" colWidth="minmax(360px, 1fr)" bind:refreshLayout>
+	{#each imageArray as image, i}
 		<a sveltekit:prefetch href="{path}/{image.file}">
 			<div class="image-wrapper">
-				<img src={image.imageUrl} alt={image.title} />
+				{#if i === imageArray.length - 1}
+					<img on:load={refreshLayout} src={image.imageUrl} alt={image.title} />
+				{:else}
+					<img src={image.imageUrl} alt={image.title} />
+				{/if}
 			</div>
 		</a>
 	{/each}

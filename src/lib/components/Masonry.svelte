@@ -7,7 +7,7 @@
 	let grids = [],
 		masonryElement;
 
-	const refreshLayout = async () => {
+	export const refreshLayout = async () => {
 		grids.forEach(async (grid) => {
 			/* get the post relayout number of columns */
 			let ncol = getComputedStyle(grid._el).gridTemplateColumns.split(' ').length;

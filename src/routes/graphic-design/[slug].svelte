@@ -5,8 +5,8 @@
 
 		return {
 			props: {
-				character: data.character,
-				characters: data.characters
+				design: data.design,
+				designs: data.designs
 			}
 		};
 	}
@@ -15,17 +15,17 @@
 <script>
 	import Gallery from '$lib/components/Gallery/index.svelte';
 	import Image from '$lib/components/Image.svelte';
-	export let character;
-	export let characters;
+	export let design;
+	export let designs;
 </script>
 
 <svelte:head>
-	<title>{character.title} - Jonathan Elliott</title>
+	<title>{design.title} - Jonathan Elliott</title>
 </svelte:head>
 
 <section>
-	<Image image={character} images={characters} path={'/character-concepts'} />
-	<Gallery imageArray={characters} path={'/character-concepts'} />
+	<Image image={design} images={designs} path={'/graphic-design'} />
+	<Gallery imageArray={designs} path={'/graphic-design'} />
 </section>
 
 <style>

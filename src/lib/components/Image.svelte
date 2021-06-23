@@ -32,20 +32,23 @@
 	h2 {
 		font-size: 1.8rem;
 		text-transform: uppercase;
-		font-weight: 200;
+		font-weight: 300;
 		font-style: normal;
 		letter-spacing: 0.06rem;
 		line-height: 1.2rem;
-		margin: 1%;
+		margin: 10px;
 	}
 
 	.description {
 		max-width: 600px;
 		font-weight: 300;
-		line-height: 1.5rem;
-		font-size: 1.1rem;
+		font-size: 1.2rem;
 		text-align: center;
-		margin-bottom: 3%;
+		margin-bottom: 20px;
+	}
+
+	.image-wrapper {
+		padding: 0 10px;
 	}
 
 	img {
