@@ -21,7 +21,7 @@
 </svelte:head>
 
 <section>
-	<Gallery imageArray={illustrations} />
+	<Gallery imageArray={illustrations} galleryFor={'illustrations'} />
 </section>
 
 <style>

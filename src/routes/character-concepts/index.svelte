@@ -16,11 +16,11 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>Character Concepts - Jonathan Elliott</title>
 </svelte:head>
 
 <section>
-	<Gallery imageArray={concepts} />
+	<Gallery imageArray={concepts} path={'/character-concepts'} />
 </section>
 
 <style>

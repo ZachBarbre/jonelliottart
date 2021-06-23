@@ -1,12 +1,12 @@
 <script context="module">
 	export async function load({ page, fetch }) {
-		const response = await fetch(`${page.params.slug}.json`);
+		const response = await fetch(`${page.path}.json`);
 		const data = await response.json();
 
 		return {
 			props: {
-				illustration: data.illustration,
-				illustrations: data.illustrations
+				character: data.character,
+				characters: data.characters
 			}
 		};
 	}
@@ -15,17 +15,17 @@
 <script>
 	import Gallery from '$lib/components/Gallery/index.svelte';
 	import Image from '$lib/components/Image.svelte';
-	export let illustration;
-	export let illustrations;
+	export let character;
+	export let characters;
 </script>
 
 <svelte:head>
-	<title>{illustration.title} - Jonathan Elliott</title>
+	<title>{character.title} - Jonathan Elliott</title>
 </svelte:head>
 
 <section>
-	<Image image={illustration} images={illustrations} />
-	<Gallery imageArray={illustrations} />
+	<Image image={character} images={characters} path={'/character-concepts'} />
+	<Gallery imageArray={characters} path={'/character-concepts'} />
 </section>
 
 <style>
@@ -33,8 +33,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		margin-top: 5%;
-		max-width: 1300px;
-		margin: 3% auto;
+		max-width: 1500px;
+		margin: 5% auto;
 	}
 </style>

@@ -89,6 +89,7 @@
 	nav {
 		width: 60%;
 		min-width: 600px;
+		margin-top: 15px;
 	}
 
 	button {
