@@ -13,7 +13,7 @@
 	--accent-color: #ff3e00;
 	--heading-color: rgba(0, 0, 0, 0.7);
 	--text-color: #444444;
-	--content-max-width: 1420px;
+	--content-max-width: 1320px;
 }
 
 body {
@@ -21,9 +21,9 @@ body {
 }
 
 #svelte {
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
+	min-height: 95vh;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
 }
 
 h1,
@@ -63,6 +63,18 @@ button {
 
 button:focus:not(:focus-visible) {
 	outline: none;
+}
+
+.section-content {
+	margin: 3% auto;
+	max-width: var(--content-max-width);
+	padding: 0 20px;
+}
+
+@media (max-width: 420px) {
+	.section-content {
+		padding: unset;
+	}
 }
 
 @media (min-width: 720px) {

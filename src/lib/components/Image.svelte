@@ -18,7 +18,7 @@
 	$: prevNext = getPrevNextLinks(image);
 </script>
 
-<h2>{image.title}</h2>
+<h1>{image.title}</h1>
 <div class="description">{@html marked(image.body)}</div>
 <div class="image-wrapper">
 	<img src={image.imageUrl} alt={image.title} />
@@ -29,14 +29,14 @@
 </div>
 
 <style>
-	h2 {
+	h1 {
 		font-size: 1.8rem;
 		text-transform: uppercase;
 		font-weight: 300;
 		font-style: normal;
 		letter-spacing: 0.06rem;
-		line-height: 1.2rem;
 		margin: 10px;
+		text-align: center;
 	}
 
 	.description {

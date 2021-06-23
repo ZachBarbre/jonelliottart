@@ -20,14 +20,6 @@
 	<title>Home</title>
 </svelte:head>
 
-<section>
+<section class="section-content">
 	<Gallery imageArray={illustrations} galleryFor={'illustrations'} />
 </section>
-
-<style>
-	section {
-		margin: 3% auto;
-		max-width: var(--content-max-width);
-		padding: 0 20px;
-	}
-</style>

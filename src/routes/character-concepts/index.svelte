@@ -19,14 +19,6 @@
 	<title>Character Concepts - Jonathan Elliott</title>
 </svelte:head>
 
-<section>
+<section class="section-content">
 	<Gallery imageArray={concepts} path={'/character-concepts'} />
 </section>
-
-<style>
-	section {
-		margin: 3% auto;
-		max-width: var(--content-max-width);
-		padding: 0 20px;
-	}
-</style>

@@ -5,7 +5,7 @@
 	let refreshLayout;
 </script>
 
-<Masonry gridGap="10px" colWidth="minmax(360px, 1fr)" bind:refreshLayout>
+<Masonry gridGap="10px" colWidth="minmax(340px, 1fr)" bind:refreshLayout>
 	{#each imageArray as image, i}
 		<a sveltekit:prefetch href="{path}/{image.file}">
 			<div class="image-wrapper">
