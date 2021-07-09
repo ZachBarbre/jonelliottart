@@ -6,8 +6,10 @@ const config = {
 		adapter: adapter(),
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte',
-		ssr: true,
-		vite: {}
+		prerender: {
+			crawl: true,
+			pages: ['*', '/darkest-dungeon-color-of-madness-promo-art']
+		}
 	}
 };
 
