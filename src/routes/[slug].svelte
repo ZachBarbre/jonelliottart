@@ -17,6 +17,7 @@
 	import Image from '$lib/components/Image.svelte';
 	export let illustration;
 	export let illustrations;
+	export const prerender = true;
 </script>
 
 <svelte:head>
