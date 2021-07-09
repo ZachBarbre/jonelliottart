@@ -1,4 +1,5 @@
 <script context="module">
+	export const prerender = true;
 	export async function load({ page, fetch }) {
 		const response = await fetch(`${page.params.slug}.json`);
 		const data = await response.json();
@@ -17,7 +18,6 @@
 	import Image from '$lib/components/Image.svelte';
 	export let illustration;
 	export let illustrations;
-	export const prerender = true;
 </script>
 
 <svelte:head>
