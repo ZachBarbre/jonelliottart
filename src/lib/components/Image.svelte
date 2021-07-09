@@ -23,6 +23,15 @@
 <div class="image-wrapper">
 	<img src={image.imageUrl} alt={image.title} />
 </div>
+{#if image.list.length > 0}
+	{#each image.list as listImage}
+		<h1>{listImage.title}</h1>
+		<div class="description">{@html marked(listImage.body)}</div>
+		<div class="image-wrapper">
+			<img src={listImage.imageUrl} alt={listImage.title} />
+		</div>
+	{/each}
+{/if}
 <div class="image-nav">
 	<a sveltekit:prefetch href="{path}/{prevNext.prev}">prev</a> /
 	<a sveltekit:prefetch href="{path}/{prevNext.next}">next</a>
