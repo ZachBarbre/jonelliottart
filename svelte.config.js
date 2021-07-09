@@ -1,6 +1,6 @@
 /** @type {import('@sveltejs/kit').Config} */
 import adapter from '@sveltejs/adapter-static';
-
+import { routeList } from './src/lib/utils/routeList.js';
 const config = {
 	kit: {
 		adapter: adapter(),
@@ -8,7 +8,7 @@ const config = {
 		target: '#svelte',
 		prerender: {
 			crawl: true,
-			pages: ['*', '/darkest-dungeon-color-of-madness-promo-art']
+			pages: routeList()
 		}
 	}
 };
