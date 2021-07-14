@@ -9,11 +9,7 @@
 	{#each imageArray as image, i}
 		<a sveltekit:prefetch href="{path}/{image.file}">
 			<div class="image-wrapper">
-				{#if i === imageArray.length - 1}
-					<img on:load={refreshLayout} src={image.imageUrl} alt={image.title} />
-				{:else}
-					<img src={image.imageUrl} alt={image.title} />
-				{/if}
+				<img on:load={refreshLayout} src={image.imageUrl} alt={image.title} />
 			</div>
 		</a>
 	{/each}
