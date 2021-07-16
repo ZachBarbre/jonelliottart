@@ -22,7 +22,7 @@
 		> Email me at <a href="mailto:jonelliottart@gmail.com">jonelliottart@gmail.com</a>
 	</p>
 	<p>
-		> Download <a href="/Resume-Jonathan-Elliott.pdf">RESUME</a>
+		> Download <a rel="external" href="/Resume-Jonathan-Elliott.pdf">RESUME</a>
 	</p>
 	<p>Thanks for dropping by!</p>
 </div>
