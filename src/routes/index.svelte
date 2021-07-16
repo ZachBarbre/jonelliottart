@@ -17,7 +17,7 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>Jonathan Elliott</title>
 </svelte:head>
 
 <section class="section-content">
