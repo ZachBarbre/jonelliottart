@@ -12,6 +12,7 @@ collections:
     label: "Illustrations"
     folder: "src/content/illustrations"
     create: true
+    extension: 'json'
     fields: 
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
