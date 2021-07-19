@@ -7,6 +7,7 @@ export function getImage(gallery, name) {
 
 	const image = fs.readFileSync(`${location}/${name}.json`, { encoding: 'utf-8' });
 	const imageJson = JSON.parse(image);
+	imageJson.file = name;
 
 	return imageJson;
 }

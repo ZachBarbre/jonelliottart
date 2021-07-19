@@ -9,6 +9,7 @@ export function getGallery(gallery) {
 	const images = files.map((file) => {
 		const image = fs.readFileSync(`${location}/${file}`, { encoding: 'utf-8' });
 		const imageJSON = JSON.parse(image);
+		imageJSON.file = file.split('.')[0];
 		return imageJSON;
 	});
 
