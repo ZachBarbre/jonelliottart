@@ -1,0 +1,16 @@
+{
+  "title": "Lovecraftian Great Ones",
+  "imageUrl": "/images/jonelliottart-yogsothoth-site.jpg",
+  "order": 7,
+  "list": [
+    {
+      "imageUrl": "/images/jonelliottart-cthulhu-site.jpg"
+    },
+    {
+      "imageUrl": "/images/jonelliottart-migo-site.jpg"
+    },
+    {
+      "imageUrl": "/images/jonelliottart-dagon-site.jpg"
+    }
+  ]
+}
