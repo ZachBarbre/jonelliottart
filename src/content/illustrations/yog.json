@@ -1,7 +1,7 @@
 {
-  "file": "{{slug}}",
-  "title": "Yog",
-  "body": "Scary!",
-  "order": 7,
-  "imageUrl": "/images/jonelliottart-yogsothoth-site.jpg"
+	"file": "yog",
+	"title": "Yog",
+	"body": "Scary!",
+	"order": 7,
+	"imageUrl": "/images/jonelliottart-yogsothoth-site.jpg"
 }
