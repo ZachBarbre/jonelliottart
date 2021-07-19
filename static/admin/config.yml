@@ -17,7 +17,13 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Gallery Order", name: "order", widget: "number" }
-      - { label: "File", name: "file", widget: "hidden", default: "{{slug}}" }
+      - { label: "File", name: "file", widget: "hidden", default: slug }
       - { label: "Main Image", name: "imageUrl", widget: "image" }
-      - { label: "More Images", name: "list", widget: "list" }
-        
+      - label: "More Images" 
+        name: "list" 
+        widget: "list" 
+        collapsed: "true"
+        fields: 
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Image", name: "imageUrl", widget: "image" }
