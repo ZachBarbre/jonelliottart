@@ -22,7 +22,7 @@ collections:
       - label: "More Images" 
         name: "list" 
         widget: "list" 
-        collapsed: "true"
+        collapsed: true
         fields: 
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
