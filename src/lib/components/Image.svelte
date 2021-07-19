@@ -19,16 +19,22 @@
 </script>
 
 <h1>{image.title}</h1>
-<div class="description">{@html marked(image.body)}</div>
+{#if image.body}
+	<div class="description">{@html marked(image.body)}</div>
+{/if}
 <div class="image-wrapper">
 	<img src={image.imageUrl} alt={image.title} />
 </div>
 {#if image.list.length > 0}
 	{#each image.list as listImage}
-		<h1>{listImage.title}</h1>
-		<div class="description">{@html marked(listImage.body)}</div>
+		{#if listImage.title}
+			<h1>{listImage.title}</h1>
+		{/if}
+		{#if listImage.body}
+			<div class="description">{@html marked(listImage.body)}</div>
+		{/if}
 		<div class="image-wrapper">
-			<img src={listImage.imageUrl} alt={listImage.title} />
+			<img src={listImage.imageUrl} alt={listImage.title || image.title} />
 		</div>
 	{/each}
 {/if}
@@ -57,7 +63,7 @@
 	}
 
 	.image-wrapper {
-		padding: 0 10px;
+		padding: 5px 10px;
 	}
 
 	img {
