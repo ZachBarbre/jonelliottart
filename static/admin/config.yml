@@ -6,6 +6,12 @@ publish_mode: editorial_workflow
 
 media_folder: "static/images"
 public_folder: "/images"
+media_library:
+  name: cloudinary
+  output_filename_only: true
+  config:
+    cloud_name: ddyrvuqa2
+    api_key: 773271737787724
 
 collections:
   - name: "illustrations"
