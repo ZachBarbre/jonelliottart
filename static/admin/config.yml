@@ -6,7 +6,6 @@ publish_mode: editorial_workflow
 
 media_library:
   name: cloudinary
-  output_filename_only: true
   config:
     cloud_name: ddyrvuqa2
     api_key: 773271737787724
@@ -23,7 +22,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown", required: false }
       - { label: "Gallery Order", name: "order", widget: "number", required: false }
       - { label: "Main Image", name: "imageUrl", widget: "image" }
-      - { label: "Thumbnail Only", name: "thumbnailOnly", widget: "boolean", default: false }
+      - { label: "Main Image for Thumbnail Only", name: "thumbnailOnly", widget: "boolean", default: false }
       - label: "More Images" 
         name: "list" 
         widget: "list" 
@@ -56,7 +55,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown", required: false }
       - { label: "Gallery Order", name: "order", widget: "number", required: false }
       - { label: "Main Image", name: "imageUrl", widget: "image" }
-      - { label: "Thumbnail Only", name: "thumbnailOnly", widget: "boolean", default: true }
+      - { label: "Main Image for Thumbnail Only", name: "thumbnailOnly", widget: "boolean", default: false }
       - label: "More Images" 
         name: "list" 
         widget: "list" 
@@ -89,7 +88,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown", required: false }
       - { label: "Gallery Order", name: "order", widget: "number", required: false }
       - { label: "Main Image", name: "imageUrl", widget: "image" }
-      - { label: "Thumbnail Only", name: "thumbnailOnly", widget: "boolean", default: true }
+      - { label: "Main Image for Thumbnail Only", name: "thumbnailOnly", widget: "boolean", default: false }
       - label: "More Images" 
         name: "list" 
         widget: "list" 
@@ -122,7 +121,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown", required: false }
       - { label: "Gallery Order", name: "order", widget: "number", required: false }
       - { label: "Main Image", name: "imageUrl", widget: "image" }
-      - { label: "Thumbnail Only", name: "thumbnailOnly", widget: "boolean", default: true }
+      - { label: "Main Image for Thumbnail Only", name: "thumbnailOnly", widget: "boolean", default: false }
       - label: "More Images" 
         name: "gallery" 
         widget: "list" 
