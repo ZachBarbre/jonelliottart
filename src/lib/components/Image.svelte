@@ -4,6 +4,9 @@
 	export let images;
 	export let path = '';
 
+	const splitImageUrl = image.imageUrl.split('upload');
+	console.log('🚀 ~ file: Image.svelte ~ line 8 ~ splitImageUrl', splitImageUrl);
+
 	function getPrevNextLinks(image) {
 		for (let index = 0; index < images.length; index++) {
 			if (images[index].file === image.file) {

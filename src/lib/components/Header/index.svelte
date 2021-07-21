@@ -89,6 +89,7 @@
 	nav {
 		width: 60%;
 		min-width: 600px;
+		max-width: 720px;
 		margin-top: 15px;
 	}
 

@@ -34,7 +34,6 @@
 		flex-direction: column;
 		align-items: center;
 		max-width: var(--content-max-width);
-		margin: 5% auto;
-		padding: 0 20px;
+		margin: 20px auto;
 	}
 </style>

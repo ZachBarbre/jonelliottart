@@ -18,8 +18,9 @@
 		max-width: var(--content-max-width);
 		margin: 0 auto;
 		border-top: var(--secondary-color) solid 1px;
-		display: grid;
-		justify-items: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 		align-items: center;
 	}
 
@@ -27,6 +28,10 @@
 		font-size: 2rem;
 		text-transform: uppercase;
 		margin: 1.5rem 0 0;
+	}
+
+	a {
+		font-weight: 500;
 	}
 
 	.mail {
@@ -46,7 +51,7 @@
 		text-align: center;
 		list-style: none;
 		flex: 1 0 auto;
-		padding: 2px 5px;
+		padding: 2px 12px;
 	}
 
 	li a {
