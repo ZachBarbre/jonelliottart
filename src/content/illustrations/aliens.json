@@ -1,7 +1,6 @@
 {
+	"thumbnailOnly": false,
 	"title": "Aliens",
-	"body": "",
-	"imageUrl": "/images/aliens.jpg",
-	"order": 6,
-	"list": []
+	"imageUrl": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1626792247/aliens_bkwvji.jpg",
+	"order": 6
 }

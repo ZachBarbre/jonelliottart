@@ -1,7 +1,6 @@
 {
+	"thumbnailOnly": false,
 	"title": "III - The Passage of Hollow Eternal",
-	"body": "",
-	"imageUrl": "/images/hollow-eternal-site.png",
-	"order": 4,
-	"list": []
+	"imageUrl": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1626792248/hollow-eternal-site_rrbrjy.png",
+	"order": 4
 }

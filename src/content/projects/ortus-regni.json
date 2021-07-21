@@ -1,7 +1,48 @@
 {
+	"thumbnailOnly": true,
 	"title": "Ortus Regni",
-	"body": "",
-	"imageUrl": "/images/ortus-menu-main-screen.png",
+	"imageUrl": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1626876475/ortus_site_ui947q.png",
 	"order": 1,
-	"list": []
+	"body": "[Ortus Regni](http://www.ortusregni.com/) is a medieval multiplayer strategy card game available for iOS and Windows. I was tasked with the creation of all the UI and Illustration elements (over 45+ screens) as well as assisting in the conception of promotional and spin-off materials for the game.",
+	"list": [
+		{
+			"imageUrl": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1626876744/ortus_account_-_avatar_king_rpmhmy.pnghttps://res.cloudinary.com/ddyrvuqa2/image/upload/v1626876744/ortus_account_-_avatar_king_rpmhmy.png"
+		},
+		{
+			"imageUrl": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1626876743/ortus_game_lobby_-_cathedral_vudimd.png"
+		},
+		{
+			"imageUrl": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1626876743/account_screen_7b_rzxhuc.png"
+		},
+		{
+			"imageUrl": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1626876743/knight_errant_quick_reference_sheet_svn8qw.png"
+		},
+		{
+			"imageUrl": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1626876742/ortus_upgrade_screen_jbaehx.png"
+		},
+		{
+			"imageUrl": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1626876742/ortus_steam_achievements_2_c2bzkw.png"
+		},
+		{
+			"imageUrl": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1626876742/ortus_what_s_new_-_tablets_eky2oy.png"
+		},
+		{
+			"imageUrl": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1626876741/day_sleft_ug1spf.png"
+		},
+		{
+			"imageUrl": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1626876741/build_1.2_screen_6_iv6jbk.png"
+		},
+		{
+			"imageUrl": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1626876740/remove_friend_1_copy_wynbgh.png"
+		},
+		{
+			"imageUrl": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1626876740/Final_UI_Screens_11_play_online_offline_copy_joe5ie.png"
+		},
+		{
+			"imageUrl": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1626876740/login_screen_zesiew.png"
+		},
+		{
+			"imageUrl": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1626876740/select_avatar_stozwi.png"
+		}
+	]
 }

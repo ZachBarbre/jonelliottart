@@ -1,16 +1,17 @@
 {
-  "title": "Lovecraftian Great Ones",
-  "imageUrl": "/images/jonelliottart-yogsothoth-site.jpg",
-  "order": 7,
-  "list": [
-    {
-      "imageUrl": "/images/jonelliottart-cthulhu-site.jpg"
-    },
-    {
-      "imageUrl": "/images/jonelliottart-migo-site.jpg"
-    },
-    {
-      "imageUrl": "/images/jonelliottart-dagon-site.jpg"
-    }
-  ]
+	"thumbnailOnly": false,
+	"title": "Lovecraftian Great Ones",
+	"imageUrl": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1626792250/jonelliottart-yogsothoth-site_mhp83y.jpg",
+	"order": 7,
+	"list": [
+		{
+			"imageUrl": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1626792249/jonelliottart-cthulhu-site_ruhxdg.jpg"
+		},
+		{
+			"imageUrl": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1626792250/jonelliottart-migo-site_xfsdmw.jpg"
+		},
+		{
+			"imageUrl": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1626792249/jonelliottart-dagon-site_lds3np.jpg"
+		}
+	]
 }

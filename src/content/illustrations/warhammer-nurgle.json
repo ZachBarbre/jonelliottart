@@ -1,7 +1,6 @@
 {
+	"thumbnailOnly": false,
 	"title": "Warhammer 40K Fan Art: Nurgle Deathguard",
-	"body": "",
-	"imageUrl": "/images/warhammer-nurgle.jpg",
-	"order": 3,
-	"list": []
+	"imageUrl": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1626792260/warhammer-nurgle_scxwef.jpg",
+	"order": 3
 }

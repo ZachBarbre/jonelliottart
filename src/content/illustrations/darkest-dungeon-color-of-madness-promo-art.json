@@ -1,7 +1,7 @@
 {
+	"thumbnailOnly": false,
 	"title": "Darkest Dungeon: Color of Madness Official Promo Art",
 	"body": "Promo art commissioned by Red Hook for Darkest Dungeon’s newest DLC.",
-	"imageUrl": "/images/CoM-illustration-branding-sigs.jpg",
-	"order": 1,
-	"list": []
+	"imageUrl": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1626792248/CoM-illustration-branding-sigs_jioxys.jpg",
+	"order": 1
 }

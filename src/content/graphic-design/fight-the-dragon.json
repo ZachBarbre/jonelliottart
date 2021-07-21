@@ -1,7 +1,7 @@
 {
+	"thumbnailOnly": false,
 	"title": "Fight The Dragon",
 	"body": "Logo design for [Fight the Dragon](http://store.steampowered.com/app/250560/), a Hack n' Slash RPG.",
-	"imageUrl": "/images/Fight-the-dragon.png",
-	"order": 2,
-	"list": []
+	"imageUrl": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1626875635/Fight_the_dragon_phqiyi.png",
+	"order": 2
 }

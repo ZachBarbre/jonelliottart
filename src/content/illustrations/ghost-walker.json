@@ -1,7 +1,6 @@
 {
+	"thumbnailOnly": false,
 	"title": "Ghost Walker",
-	"body": "",
-	"imageUrl": "/images/Ghost-Walker.png",
-	"order": 2,
-	"list": []
+	"imageUrl": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1626792248/Ghost-Walker_n6cz9k.png",
+	"order": 2
 }

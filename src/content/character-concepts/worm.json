@@ -1,7 +1,17 @@
 {
+	"thumbnailOnly": false,
 	"title": "Sickle Worm",
-	"body": "",
-	"imageUrl": "/images/worm-final-small.png",
+	"imageUrl": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1626792260/worm-final-small_vufzes.png",
 	"order": 1,
-	"list": []
+	"list": [
+		{
+			"imageUrl": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1626804949/new-worm-color_k8bqnt.png"
+		},
+		{
+			"imageUrl": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1626804918/JonathanElliott_Refinements2_t2jaba.jpg"
+		},
+		{
+			"imageUrl": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1626804919/JonathanElliott_ThumbnailRevisions_hk8orf.jpg"
+		}
+	]
 }

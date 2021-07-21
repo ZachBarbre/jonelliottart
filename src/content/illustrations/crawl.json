@@ -1,7 +1,7 @@
 {
+	"thumbnailOnly": false,
 	"title": "Crawl",
 	"body": "Commissioned by [Powerhoof](https://www.powerhoof.com/crawl/) for merch illustrations for their game Crawl, a “dungeon crawler where your friends control the monsters”!  Maybe available on the [Powerhoof](https://www.powerhoof.com/merch-store-back-soon/) webstore?",
-	"imageUrl": "/images/Crawl-shirt-site.jpg",
-	"order": 5,
-	"list": []
+	"imageUrl": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1626792247/Crawl-shirt-site_bjdyrr.jpg",
+	"order": 5
 }

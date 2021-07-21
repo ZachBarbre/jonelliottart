@@ -1,18 +1,14 @@
 {
+	"thumbnailOnly": false,
 	"title": "Immortal",
-	"body": "",
-	"imageUrl": "/images/immortal-site-3.png",
+	"imageUrl": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1626792249/immortal-site-3_cdv7bd.png",
 	"order": 2,
 	"list": [
 		{
-			"title": "",
-			"body": "",
-			"imageUrl": "/images/immortal-site-4.png"
+			"imageUrl": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1626792249/immortal-site-4_lm2qia.png"
 		},
 		{
-			"title": "",
-			"body": "",
-			"imageUrl": "/images/immortal-site-5.png"
+			"imageUrl": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1626792249/immortal-site-5_w6jhpp.png"
 		}
 	]
 }

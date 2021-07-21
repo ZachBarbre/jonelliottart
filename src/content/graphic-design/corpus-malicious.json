@@ -1,7 +1,6 @@
 {
+	"thumbnailOnly": false,
 	"title": "Corpus Malicious",
-	"body": "",
-	"imageUrl": "/images/logo.jpg",
-	"order": 5,
-	"list": []
+	"imageUrl": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1626788791/Corpus-Malicious_zaaivf.jpg",
+	"order": 3
 }

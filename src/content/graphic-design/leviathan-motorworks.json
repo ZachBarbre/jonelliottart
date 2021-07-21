@@ -1,7 +1,7 @@
 {
+	"thumbnailOnly": false,
 	"title": "Leviathan Motorworks",
 	"body": "Logo design for a local auto repair shoppe and chump car race outfit.",
-	"imageUrl": "/images/leviathan-02.png",
-	"order": 5,
-	"list": []
+	"imageUrl": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1626792250/leviathan-02_vyfkxn.png",
+	"order": 5
 }
