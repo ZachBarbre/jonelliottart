@@ -25,7 +25,7 @@
 <div class="image-wrapper">
 	<img src={image.imageUrl} alt={image.title} />
 </div>
-{#if image.list.length > 0}
+{#if image.list}
 	{#each image.list as listImage}
 		{#if listImage.title}
 			<h1>{listImage.title}</h1>
