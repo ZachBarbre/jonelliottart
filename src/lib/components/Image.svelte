@@ -4,8 +4,11 @@
 	export let images;
 	export let path = '';
 
-	const splitImageUrl = image.imageUrl.split('upload');
-	console.log('🚀 ~ file: Image.svelte ~ line 8 ~ splitImageUrl', splitImageUrl);
+	function getSrcset(imageLink) {
+		const splitImageUrl = imageLink.split('upload');
+		const srcset = `${splitImageUrl[0]}upload/c_limit,w_340${splitImageUrl[1]} 340w, ${splitImageUrl[0]}upload/c_limit,w_630${splitImageUrl[1]} 630w, ${splitImageUrl[0]}upload/c_limit,w_680${splitImageUrl[1]} 680w, ${splitImageUrl[0]}upload/c_limit,w_750${splitImageUrl[1]} 750w, ${splitImageUrl[0]}upload/c_limit,w_840${splitImageUrl[1]} 840w, ${splitImageUrl[0]}upload/c_limit,w_1500${splitImageUrl[1]} 1500w`;
+		return srcset;
+	}
 
 	function getPrevNextLinks(image) {
 		for (let index = 0; index < images.length; index++) {
@@ -26,7 +29,7 @@
 	<div class="description">{@html marked(image.body)}</div>
 {/if}
 <div class="image-wrapper">
-	<img src={image.imageUrl} alt={image.title} />
+	<img srcset={getSrcset(image.imageUrl)} src={image.imageUrl} alt={image.title} />
 </div>
 {#if image.list}
 	{#each image.list as listImage}
@@ -37,7 +40,11 @@
 			<div class="description">{@html marked(listImage.body)}</div>
 		{/if}
 		<div class="image-wrapper">
-			<img src={listImage.imageUrl} alt={listImage.title || image.title} />
+			<img
+				srcset={getSrcset(listImage.imageUrl)}
+				src={listImage.imageUrl}
+				alt={listImage.title || image.title}
+			/>
 		</div>
 	{/each}
 {/if}
@@ -66,7 +73,14 @@
 	}
 
 	.image-wrapper {
-		padding: 5px 10px;
+		padding: 0 10px;
+		margin: 10px auto;
+	}
+
+	@media (max-width: 420px) {
+		.image-wrapper {
+			width: 95%;
+		}
 	}
 
 	img {

@@ -14,7 +14,7 @@
 <style>
 	footer {
 		width: 80%;
-		min-width: 359px;
+		min-width: 300px;
 		max-width: var(--content-max-width);
 		margin: 0 auto;
 		border-top: var(--secondary-color) solid 1px;

@@ -36,4 +36,10 @@
 		max-width: var(--content-max-width);
 		margin: 20px auto;
 	}
+
+	@media (max-width: 420px) {
+		section {
+			margin: 0 auto;
+		}
+	}
 </style>

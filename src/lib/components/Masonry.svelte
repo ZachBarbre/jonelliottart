@@ -119,14 +119,19 @@ $s: var(--grid-gap); // .5em;
 		display: grid;
 		grid-template-columns: repeat(auto-fit, var(--col-width));
 		grid-template-rows: masonry;
-		justify-items: center;
 		gap: var(--grid-gap);
-		padding: var(--grid-gap);
+		padding: var(--grid-gap) 0;
 	}
 	:global(.__grid--masonry > *) {
 		align-self: start;
 	}
 	:global(.__grid--masonry.__stretch-first > *:first-child) {
 		grid-column: 1/ -1;
+	}
+
+	@media (max-width: 340px) {
+		:global(.__grid--masonry) {
+			grid-template-columns: repeat(auto-fit, 300px);
+		}
 	}
 </style>
