@@ -1,0 +1,90 @@
+{
+  "thumbnailOnly": true,
+  "title": "DARKEST DUNGEON MERCH DESIGNS",
+  "body": "Working with [Red Hook Studios](http://www.redhookgames.com/), I was tapped to help with several of the merchandise / marketing designs.",
+  "order": 1,
+  "imageUrl": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1628008010/darkest_dungeon_thumbnail_qdit6o.png",
+  "gallery": [
+    {
+      "title": "COLLECTOR’S EDITION",
+      "body": "Merge Games [Signature Edition](https://signatureeditiongames.com/collections/signature-editions) - Limited Supply!",
+      "imageList": [
+        {
+          "image": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1628008090/Packshot_disg9j.jpg"
+        },
+        {
+          "image": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1628008089/Oring_a3dvdz.jpg"
+        },
+        {
+          "image": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1628008089/Certificate_ix9fjm.jpg"
+        },
+        {
+          "image": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1628008089/Pins_and_Post_Card_u09cih.jpg"
+        },
+        {
+          "image": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1628008089/Digipak_All_p7nped.jpg"
+        },
+        {
+          "image": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1628008089/D06lyYBWkAA28jc_gzeaab.jpg"
+        }
+      ]
+    },
+    {
+      "title": "DARKEST DIORAMA",
+      "body": "A higher tier reward from the Darkest Dungeon Kickstarter, these are also now available through [Fangamer](https://www.fangamer.com/products/darkest-dungeon-diorama)!",
+      "imageList": [
+        {
+          "image": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1628008089/Diorama_Front_phcv0s.png"
+        },
+        {
+          "image": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1628008089/Diorama_Back_xlwhdb.png"
+        },
+        {
+          "image": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1628008088/paper_insert_ekruqt.png"
+        },
+        {
+          "image": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1628008088/box_sketches_ra8huu.png"
+        },
+        {
+          "image": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1628008088/DK58rWTVAAAJAcl_khisbz.jpg"
+        }
+      ]
+    },
+    {
+      "title": "VINYL SOUNDTRACK",
+      "body": "Available now from [GhostRamp](https://ghost-ramp.myshopify.com/collections/videogames/products/darkestdungeon)!",
+      "imageList": [
+        {
+          "image": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1628008088/front_sleeve_ytg8gf.png"
+        },
+        {
+          "image": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1628008088/inner_spread_ldf5bc.png"
+        },
+        {
+          "image": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1628008088/paper_insert_yfzbcf.jpg"
+        },
+        {
+          "image": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1628008087/Disc_Labels_Side_1_and_2_copy_xgmnhx.png"
+        },
+        {
+          "image": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1628008087/Disc_Labels_Side_3_and_4_copy_cae40i.png"
+        },
+        {
+          "image": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1628008087/screen_shot_2018-01-25_at_1.12.10_pm_p7f36r.png"
+        },
+        {
+          "image": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1628008087/screen_shot_2018-01-25_at_1.12.22_pm_ktbumi.png"
+        },
+        {
+          "image": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1628008087/screen_shot_2018-01-25_at_1.12.28_pm_g3fuzo.png"
+        },
+        {
+          "image": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1628008087/screen_shot_2018-01-25_at_1.12.17_pm_pnuozk.png"
+        },
+        {
+          "image": "https://res.cloudinary.com/ddyrvuqa2/image/upload/v1628008086/screen_shot_2018-01-25_at_1.13.00_pm_fd57dj.png"
+        }
+      ]
+    }
+  ]
+}
