@@ -33,9 +33,13 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		margin-top: 5%;
 		max-width: var(--content-max-width);
-		margin: 3% auto;
-		padding: 0 10px;
+		margin: 20px auto;
+	}
+
+	@media (max-width: 420px) {
+		section {
+			margin: 0 auto;
+		}
 	}
 </style>

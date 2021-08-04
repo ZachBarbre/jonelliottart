@@ -17,11 +17,11 @@
 		"eslint-plugin-svelte3": "^3.2.0",
 		"prettier": "~2.2.1",
 		"prettier-plugin-svelte": "^2.2.0",
-		"svelte": "^3.34.0"
+		"svelte": "^3.34.0",
+		"svelte-carousel": "^1.0.10"
 	},
 	"type": "module",
 	"dependencies": {
-		"@fontsource/fira-mono": "^4.4.5",
 		"@lukeed/uuid": "^2.0.0",
 		"cookie": "^0.4.1",
 		"marked": "^2.1.1"

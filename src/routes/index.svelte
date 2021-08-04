@@ -22,4 +22,5 @@
 
 <section class="section-content">
 	<Gallery imageArray={illustrations} galleryFor={'illustrations'} />
+	<div class="section-boarder" />
 </section>
