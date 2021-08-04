@@ -1,13 +1,13 @@
 <footer>
 	<h3>Say Howdy!</h3>
-	<a class="mail" href="mailto:jonelliottart@gmail.com">jonelliottart@gmail.com</a>
+	<a class="mail" rel="external" href="mailto:jonelliottart@gmail.com">jonelliottart@gmail.com</a>
 	<ul>
-		<li><a href="https://www.artstation.com/artist/sixfootewok">Artstation</a></li>
-		<li><a href="http://sixfootewok.deviantart.com/">Deviantart</a></li>
-		<li><a href="https://twitter.com/jonelliottart">Twitter</a></li>
-		<li><a href="https://www.instagram.com/jonelliottart/">Instagram</a></li>
-		<li><a href="https://www.facebook.com/jonelliottart/">Facebook</a></li>
-		<li><a href="https://www.twitch.tv/sixfootewok1">Twitch</a></li>
+		<li><a rel="external" href="https://www.artstation.com/artist/sixfootewok">Artstation</a></li>
+		<li><a rel="external" href="http://sixfootewok.deviantart.com/">Deviantart</a></li>
+		<li><a rel="external" href="https://twitter.com/jonelliottart">Twitter</a></li>
+		<li><a rel="external" href="https://www.instagram.com/jonelliottart/">Instagram</a></li>
+		<li><a rel="external" href="https://www.facebook.com/jonelliottart/">Facebook</a></li>
+		<li><a rel="external" href="https://www.twitch.tv/sixfootewok1">Twitch</a></li>
 	</ul>
 </footer>
 
