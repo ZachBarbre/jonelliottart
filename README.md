@@ -4,11 +4,11 @@ This is a website created for the artist Jonathan Elliott. You can find it at [w
 
 ## Tech's Used
 
-The site was built using [Sveltekit](https://kit.svelte.dev) as an SSG with the staic adapter.
+The site was built using [Sveltekit](https://kit.svelte.dev) as an SSG with the static adapter.
 
-It is hosted on [Netlify](https://netlify.com) and uses [NetlifyCMS](https://neflifycms.org) for content managment.
+It is hosted on [Netlify](https://netlify.com) and uses [NetlifyCMS](https://neflifycms.org) for content management.
 
-All images are hosted though [Cloudinary](https://cloudinary.com) using thier image transformation urls.
+All images are hosted though [Cloudinary](https://cloudinary.com) using their image transformation urls.
 
 ## Run locally
 
