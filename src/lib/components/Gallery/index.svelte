@@ -7,14 +7,7 @@
 
 	function getSrcset(imageLink) {
 		const splitImageUrl = imageLink.split('upload');
-		const srcset = `
-			${splitImageUrl[0]}upload/c_limit,w_340${splitImageUrl[1]} 340w, 
-			${splitImageUrl[0]}upload/c_limit,w_378${splitImageUrl[1]} 378w, 
-			${splitImageUrl[0]}upload/c_limit,w_680${splitImageUrl[1]} 680w, 
-			${splitImageUrl[0]}upload/c_limit,w_750${splitImageUrl[1]} 750w, 
-			${splitImageUrl[0]}upload/c_limit,w_840${splitImageUrl[1]} 840w, 
-			${splitImageUrl[0]}upload/c_limit,w_1500${splitImageUrl[1]} 1500w, 
-		`;
+		const srcset = `${splitImageUrl[0]}upload/c_limit,w_340${splitImageUrl[1]} 340w, ${splitImageUrl[0]}upload/c_limit,w_378${splitImageUrl[1]} 378w, ${splitImageUrl[0]}upload/c_limit,w_680${splitImageUrl[1]} 680w, ${splitImageUrl[0]}upload/c_limit,w_750${splitImageUrl[1]} 750w, ${splitImageUrl[0]}upload/c_limit,w_840${splitImageUrl[1]} 840w, ${splitImageUrl[0]}upload/c_limit,w_1500${splitImageUrl[1]} 1500w`;
 		return srcset;
 	}
 </script>
