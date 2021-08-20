@@ -1,6 +1,6 @@
 # Jon Elliott Art
 
-This is a website created for the artist Jonathan Elliott. You can find it at [www.jonelliottart.com](https://www.jonelliottart.com).
+This is a website created for the artist Jonathan Elliott. You can find it at [here](https://flamboyant-blackwell-b9918e.netlify.app/) (dns update has not yet been done).
 
 ## Tech's Used
 
